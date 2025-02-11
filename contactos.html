@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol - Contactos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #000;
+            background: #8B0000; /* Vermelho escuro */
+        }
+        * {
+            margin: 0 auto 0 auto;
+            text-align: left;
+        }
+        #container {
+            width: 750px;
+            background-color:#fff;
+            background-repeat:repeat-y;
+        }
+        #links {
+            display:block;
+            float:right;
+            margin-top:75px;
+            margin-right:10px;
+        }
+        #links a, #links a:visited {
+            font-size:18px;
+            font-weight:bold;
+            margin-left:4px;
+            margin-right:4px;
+            color: #fff;
+            text-decoration:none;
+        }
+        #links a:hover {
+            border-bottom:dotted 1px #fff;
+        }
+        #header {
+            height:160px;
+            background: #600000;
+        }
+        .logo {
+            margin-top:15px;
+            margin-left:10px;
+            float:left;
+            height: 160px;
+        }
+        .contenttext {
+            padding: 15px 35px;
+            text-align:center;
+        }
+        .contenttext h2 {
+            color:#8B0000;
+            font-size:24px;
+            margin-bottom:10px;
+            text-align:center;
+        }
+        .contenttext p {
+            text-align: justify;
+        }
+        .form-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .form-container input {
+            display: block;
+            margin: 10px auto;
+            padding: 8px;
+            width: 80%;
+        }
+        .form-container button {
+            background-color: #8B0000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        #footer {
+            font-size:12px;
+            color:#fff;
+            margin-top:18px;
+            width:750px;
+            text-align:center;
+            background: #600000;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <img class="logo" src="https://images.turismoenportugal.org/Escudo-Portugal.gif"/>
+            <div id="links">
+                <a href="index.html">Início</a>
+                <a href="historia.html">História</a>
+                <a href="clubes.html">Clubes</a>
+                <a href="presidentes.html">Presidentes</a>
+                <a href="contactos.html">Contactos</a>
+            </div>
+        </div>
+        <div class="contenttext">
+            <h2>Contactos</h2>
+            <p>Entre em contato conosco através das seguintes formas:</p>
+            <p>Email: suporte@futebolsite.com</p>
+            <p>Telefone: +351 123 456 789</p>
+            <p>Endereço: Rua do Futebol, 100, Lisboa, Portugal</p>
+            <p>Siga-nos nas redes sociais:</p>
+            <p>
+                <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+            </p>
+
+            <h3>Login / Criar Conta</h3>
+            <div class="form-container">
+                <form action="#" method="post">
+                    <input type="text" name="username" placeholder="Nome de usuário" required>
+                    <input type="password" name="password" placeholder="Senha" required>
+                    <button type="submit">Entrar</button>
+                </form>
+                <p>Não tem uma conta? <a href="#">Crie uma agora</a></p>
+            </div>
+            
+            <p>
+                <a href="index.html">Voltar para a página inicial</a>
+            </p>
+        </div>
+        <div id="footer">&copy; 2025 Site de Futebol. Todos os direitos reservados.</div>
+    </div>
+</body>
+</html>

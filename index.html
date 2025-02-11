@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol - Início</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #000;
+            background: #8B0000; /* Vermelho escuro */
+        }
+        * {
+            margin: 0 auto 0 auto;
+            text-align: left;
+        }
+        #container {
+            width: 750px;
+            background-color:#fff;
+            background-repeat:repeat-y;
+        }
+        #links {
+            display:block;
+            float:right;
+            margin-top:75px;
+            margin-right:10px;
+        }
+        #links a, #links a:visited {
+            font-size:18px;
+            font-weight:bold;
+            margin-left:4px;
+            margin-right:4px;
+            color: #fff;
+            text-decoration:none;
+        }
+        #links a:hover {
+            border-bottom:dotted 1px #fff;
+        }
+        #header {
+            height:160px;
+            background: #600000;
+        }
+        .logo {
+            margin-top:15px;
+            margin-left:10px;
+            float:left;
+            height: 160px;
+        }
+        .contenttext {
+            padding: 15px 35px;
+            text-align:center;
+        }
+        .contenttext h2 {
+            color:#8B0000;
+            font-size:24px;
+            margin-bottom:10px;
+            text-align:center;
+        }
+        .contenttext p {
+            text-align: justify;
+        }
+        .form {
+            margin: 20px 0 0 150px;
+            padding-bottom: 50px;
+            line-height: 150%;
+        }
+        .form h2 {
+            color:#8B0000;
+            font-size:18px;
+            margin-bottom:10px;
+            text-transform: uppercase;
+        }
+        #footer {
+            font-size:12px;
+            color:#fff;
+            margin-top:18px;
+            width:750px;
+            text-align:center;
+            background: #600000;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <img class="logo" src="https://images.turismoenportugal.org/Escudo-Portugal.gif"/>
+            <div id="links">
+                <a href="index.html">Início</a>
+                <a href="historia.html">Historia</a>
+                <a href="clubes.html">Clubes</a>
+                <a href="presidentes.html">Presidentes</a>
+                <a href="contactos.html">Contactos</a>
+            </div>
+        </div>
+		<img class="picture" src="Estadio.png"/>
+        <div class="contenttext">
+            <h2>Bem-vindo ao site de Futebol</h2>
+            <p>
+                O futebol é mais do que um simples esporte – é uma paixão que une pessoas ao redor do mundo. Desde os gramados mais famosos até as peladas de rua, esse jogo encanta gerações e desperta emoções únicas. Aqui, você encontrará tudo sobre a história do futebol, os clubes mais importantes, os presidentes que marcaram época e muito mais.
+            </p>
+            <p>
+                Nossa missão é oferecer a você um espaço completo para explorar o mundo do futebol, desde suas origens até os dias atuais. Conheça os primeiros passos do esporte, os momentos históricos que marcaram sua evolução e os jogadores lendários que se tornaram verdadeiros ícones mundiais. 
+            </p>
+            <p>
+                Além disso, trazemos informações sobre os principais clubes do mundo, suas conquistas e curiosidades que todo torcedor precisa saber. Quer saber mais sobre os bastidores do futebol? Descubra quem foram os grandes presidentes que ajudaram a transformar seus clubes em verdadeiras potências esportivas.
+            </p>
+            <p>
+                Mas o futebol não é apenas sobre o que acontece dentro de campo. Ele é feito de torcedores apaixonados, rivalidades históricas e momentos inesquecíveis que ficam para sempre na memória. E é por isso que este site foi criado: para ser um ponto de encontro para aqueles que vivem e respiram futebol.
+            </p>
+            <p>
+                Então, prepare-se para mergulhar em um universo cheio de histórias emocionantes, curiosidades e muita informação. Navegue pelas nossas páginas, descubra conteúdos exclusivos e compartilhe sua paixão pelo futebol. Seja bem-vindo e aproveite tudo que preparamos para você! ⚽🔥
+            </p>
+        </div>
+        <div class="form">
+            <h2>Enviar um e-mail:</h2>
+            <form action="mailto:alguem@exemplo.com" method="post" enctype="text/plain">
+                Nome:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="email" name="mail"><br>
+                Comentário:<br>
+                <textarea name="comment" cols="50" rows="5"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div id="footer">&copy; 2025 Site de Futebol. Todos os direitos reservados.</div>
+    </div>
+</body>
+</html>
